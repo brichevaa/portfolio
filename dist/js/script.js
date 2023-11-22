@@ -1,5 +1,4 @@
 const hamburger = document.querySelector('.hamburger');
-console.log(hamburger);
 const menu = document.querySelector('.menu');
 const closeMenu = document.querySelector('.menu__close');
 
