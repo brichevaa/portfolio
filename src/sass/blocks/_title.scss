@@ -18,3 +18,17 @@
       line-height: 30px;
    }
 }
+.section-title {
+   margin-bottom: 6px;
+   position: relative;
+   text-align: center;
+   @include before_circle;
+   &::before {
+      top: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}
+.section-subtitle {
+   text-align: center;
+}
